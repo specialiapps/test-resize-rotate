@@ -1,0 +1,40 @@
+html {
+  height:100vh;
+  margin: 0;
+  background-color:#fff;
+}
+html, body {
+  padding: 0;
+  border: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  position: absolute;
+  border: 1px solid black;
+  margin: 10px;
+  background-color:#eee;
+  top: env(safe-area-inset-top, 0);
+  right: env(safe-area-inset-right, 0);
+  bottom: env(safe-area-inset-bottom, 0);
+  left: env(safe-area-inset-left, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-text-size-adjust:none;
+}
+body > * {
+  position: absolute;
+  margin: 0 10px;
+}
+h1 {
+  font-size: 16px;
+}
+main {
+  top: 50%;
+  transform: translateY(-33%);
+  line-height:150%;
+}
+footer {
+  bottom: 0;
+}

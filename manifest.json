@@ -1,0 +1,12 @@
+{
+  "name": "Test Resize & Rotate Events",
+  "short_name": "Resize Rotate",
+  "author": "Special iApps C.I.C.",
+  "copyright": "(C) 2023 Special iApps C.I.C.",
+  "id": "test-resize-rotate",
+  "start_url": "./index.html",
+  "lang": "en",
+  "dir": "ltr",
+  "display": "standalone",
+  "icons":[{"src": "icon.png", "sizes": "180x180"}]	
+}
