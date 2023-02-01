@@ -2,3 +2,5 @@
 Test window and screen resize and rotate events in JavaScript.
 
 This page tests the window and screen resize and orientation change events in JavaScript. Resize and/or rotate, and the counters will update. Details are also logged to the console.
+
+(C) 2023 Special iApps C.I.C. MIT License.
